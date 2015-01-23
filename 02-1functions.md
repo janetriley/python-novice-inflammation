@@ -8,10 +8,6 @@ minutes: 30
 >
 > *   Define a function that takes parameters.
 > *   Return a value from a function.
-> *   Test and debug a function.
-> *   Explain what a call stack is, and trace changes to the call stack as functions are called.
-> *   Set default values for function parameters.
-> *   Explain why we should divide programs into small, single-purpose functions.
 
 If we only had one data set to analyze,
 it would probably be faster to load the file into a spreadsheet
