@@ -33,6 +33,10 @@
 <li>Test and debug a function.</li>
 </ul>
 </div>
+<p>Let's convert the boiling point of water from Fahrenheit to Kelvin.</p>
+<pre class="sourceCode python"><code class="sourceCode python"><span class="dt">print</span> <span class="st">&#39;boiling point of water:&#39;</span>, fahr_to_kelvin(<span class="dv">212</span>)</code></pre>
+<pre class="output"><code>boiling point of water: 273.15</code></pre>
+<p>Unfortunately, the value returned doesn't look right. What went wrong?</p>
 <p><em>Debugging</em> is when we fix a piece of code that we know is working incorrectly. In this case, we know that <code>fahr_to_kelvin</code> is giving us the wrong answer, so let's find out why.</p>
 <p>For big pieces of code, there are tools called <em>debuggers</em> that aid in this process. Since we just have a short function, we'll debug by choosing some parameter value, breaking our function into small parts, and printing out the value of each part.</p>
 <pre class="sourceCode python"><code class="sourceCode python"><span class="co"># We&#39;ll use temp = 212, the boiling point of water, which was incorrect</span>
